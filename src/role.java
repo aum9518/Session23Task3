@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public enum role {
+public enum role {
+    MENTOR,STUDENT;
 }
