@@ -4,6 +4,19 @@ import java.util.InputMismatchException;
 
 public class Main {
     public static void main(String[] args) {
+        //TODO Task 3
+        //Person класс тузунуз( name, age, phoneNumber, gender(enum),
+        //role(enum: Student, Mentor) . main ден класстын 10 объектисин
+        //тузунуз,  жашы  тамга  менен  же  терс  сан  берилсе  exception
+        //ыргытылсын,
+        //phoneNumber  0  дон  башталсын  же  болбосо  +996  мн
+        //башталсын узундугу 10 же 14 символдон турушу керек, андай
+        //болбосо  exception  ыргытылсын.  ArrayList  тузуп  баарын  ошол
+        //листке  салыныз.  Анан  аты  А  тамгадан  баштагандарды  башка
+        //листке салып коюнуз, роль студент болгондорду башка листке
+        //салыныз,  жана  кыздарды  жана  балдарды  башка  башка  листке
+        //салыныз.
+
         Person person1 = new Person("Aibek",27,"+996221788717",Gender.MALE,role.STUDENT);
         Person person2 = new Person("Ulan",27,"+996221374829",Gender.MALE,role.MENTOR);
         Person person3 = new Person("Matmusa",22,"+996221394823",Gender.MALE,role.STUDENT);
