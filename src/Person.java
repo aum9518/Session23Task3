@@ -55,4 +55,15 @@ public class Person {
     public void setRole(role role) {
         this.role = role;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", gender=" + gender +
+                ", role=" + role +
+                '}';
+    }
 }
